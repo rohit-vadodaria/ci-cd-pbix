@@ -1,0 +1,10 @@
+spn_credentials:
+    tenant_id: b6ed5b7e-5de0-464b-95c0-acbb43267417           #The tenant id
+    
+pbix_deploy_options:
+    pbix_name_conflict: CreateOrOverwrite                     #Determines what to do if a dataset with the same name already exists. Abort, CreateOrOverwrite, GenerateUniqueName, Ignore, Overwrite (https://docs.microsoft.com/en-us/rest/api/power-bi/imports/post-import-in-group#post-import-example)
+    override_model_name: True                                 #Determines whether to override existing label on model during republish of PBIX file, service default value is true.
+    override_report_label: True                               #Determines whether to override existing label on report during republish of PBIX file, service default value is true.
+
+deploy_location:
+    workspace_id: me                                          #The workspace ID
